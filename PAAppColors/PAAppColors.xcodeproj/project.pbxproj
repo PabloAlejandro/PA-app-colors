@@ -10,6 +10,7 @@
 		5FC48CF11ACC16C700D4452A /* PAAppColors.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FC48CF01ACC16C700D4452A /* PAAppColors.h */; };
 		5FC48CF31ACC16C700D4452A /* PAAppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC48CF21ACC16C700D4452A /* PAAppColors.m */; };
 		5FC48CF91ACC16C700D4452A /* libPAAppColors.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC48CED1ACC16C700D4452A /* libPAAppColors.a */; };
+		5FC48D0B1ACC1C4600D4452A /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC48D0A1ACC1C4600D4452A /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		5FC48CF81ACC16C700D4452A /* PAAppColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAAppColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC48CFE1ACC16C700D4452A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FC48D071ACC190400D4452A /* ColorsPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorsPrivate.h; sourceTree = "<group>"; };
+		5FC48D091ACC1C4600D4452A /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestView.h; path = Test/TestView.h; sourceTree = "<group>"; };
+		5FC48D0A1ACC1C4600D4452A /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestView.m; path = Test/TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		5FC48CEF1ACC16C700D4452A /* PAAppColors */ = {
 			isa = PBXGroup;
 			children = (
+				5FC48D081ACC1C2D00D4452A /* Test */,
 				5FC48CF01ACC16C700D4452A /* PAAppColors.h */,
 				5FC48CF21ACC16C700D4452A /* PAAppColors.m */,
 				5FC48D071ACC190400D4452A /* ColorsPrivate.h */,
@@ -105,6 +109,15 @@
 				5FC48CFE1ACC16C700D4452A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FC48D081ACC1C2D00D4452A /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				5FC48D091ACC1C4600D4452A /* TestView.h */,
+				5FC48D0A1ACC1C4600D4452A /* TestView.m */,
+			);
+			name = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC48D0B1ACC1C4600D4452A /* TestView.m in Sources */,
 				5FC48CF31ACC16C700D4452A /* PAAppColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
