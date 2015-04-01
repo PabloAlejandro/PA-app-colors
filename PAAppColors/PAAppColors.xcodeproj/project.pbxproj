@@ -41,6 +41,7 @@
 		5FC48CF21ACC16C700D4452A /* PAAppColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAAppColors.m; sourceTree = "<group>"; };
 		5FC48CF81ACC16C700D4452A /* PAAppColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAAppColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC48CFE1ACC16C700D4452A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FC48D071ACC190400D4452A /* ColorsPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorsPrivate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 			children = (
 				5FC48CF01ACC16C700D4452A /* PAAppColors.h */,
 				5FC48CF21ACC16C700D4452A /* PAAppColors.m */,
+				5FC48D071ACC190400D4452A /* ColorsPrivate.h */,
 			);
 			path = PAAppColors;
 			sourceTree = "<group>";
